@@ -13,7 +13,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Dockerized
 
-This repo has been Dockerized for use in creating a Docker image. To do so, simply run `docker build . -t quiz` to compile the application into angular form. To run, you can run via docker using a command such as `docker run -p 3000:80 quiz` that would allow access via port 3000 to the running application.
+This repo has been Dockerized for use in creating a Docker image. To do so, simply run `docker build . -t quiz` to compile the application into a Docker image. To run, use a command such as `docker run -p 3000:80 quiz` that would allow access via port 3000 to the running application.
 
 ## Further help
 
